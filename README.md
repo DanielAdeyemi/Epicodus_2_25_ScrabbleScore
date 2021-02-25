@@ -32,15 +32,15 @@ ___
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------ | :-------------: |
 | 01 | For empty string display 0 | "" | 0 |✅|
-| 02 | For each vowel in a string add 1 point | aou | 3 |✅ |
-| 03 | If string has D or G add 2 points for each appearance | aoudg | 7 | ✅|
-| 04 | If string has B, C, M, P add 3 points for each appearance| aodbm | 10 | ✅|
-| 05 | If string has F, H, V, W, Y add 4 points for each appearance | aodbmy| 14 | ✅ |
-| 06 | If string has K add 5 points for each appearance | audfk | 13 | ✅  |
-| 07 | If string has J, X add 8 points for each appearance | audfkj | 21 | ✅  |
-| 08 | If string has Q, Z add 10 points for each appearance | audfkjz | 31 | ✅  |
-| 09 |  |  |  | ✅  |
-| 10 |  | | | ❌ |
+| 02 | For each vowel in a string add 1 point | "aou" | 3 |✅ |
+| 03 | If string has 'd' or 'g' add 2 points for each appearance | "aoudg" | 7 | ✅|
+| 04 | If string has 'b', 'c', 'm', 'p' add 3 points for each appearance| "aodbm" | 10 | ✅|
+| 05 | If string has 'f', 'h', 'v', 'w', 'y' add 4 points for each appearance | "aodbmy" | 14 | ✅ |
+| 06 | If string has 'k' add 5 points for each appearance | "audfk" | 13 | ✅  |
+| 07 | If string has 'j', 'x' add 8 points for each appearance | "audfkj" | 21 | ✅  |
+| 08 | If string has 'q', 'z' add 10 points for each appearance | "audfkjz" | 31 | ✅  |
+| 09 | Make count case insensetive | "AuDfKjz" | 31 | ❌ |
+| 10 |  |  |  | ✅  |
 
 </details>
 
