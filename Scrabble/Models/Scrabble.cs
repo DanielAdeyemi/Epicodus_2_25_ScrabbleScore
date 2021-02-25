@@ -8,16 +8,21 @@ namespace Scrabble.Models
     public static int ScrabbleScore(string word)
     {
       int sum = 0;
-      char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+      char[] plusOne = {'a', 'e', 'i', 'o', 'u'};
+      char[] plusThree = {'b', 'c', 'm', 'p'};
       for (int i = 0; i < word.Length; i++)
       {
-        if (vowels.Contains(word[i]))
+        if (plusOne.Contains(word[i]))
         {
           sum++;
         }
         else if (word[i].Equals('d') || word[i].Equals('g'))
         {
           sum+=2;
+        }
+        else if (plusThree.Contains(word[i]))
+        {
+          sum+=3;
         }
       }
       return sum;
