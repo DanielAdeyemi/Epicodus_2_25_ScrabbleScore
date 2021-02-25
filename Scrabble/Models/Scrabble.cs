@@ -2,8 +2,11 @@ using System;
 
 namespace Scrabble.Models
 {
-  public class Scrabble
+  public class Game
   {
-    
-  }    
+    public static int ScrabbleScore(string word)
+    {
+      return 15;
+    }    
+  }
 }

@@ -11,7 +11,7 @@ public class ScrabbleTests
 		[TestMethod]
 		public void ScrabbleScore_ReturnZero_Int()
 		{
-			int result = Scrabble.ScrabbleScore("");
+			int result = Game.ScrabbleScore("");
 			Assert.AreEqual(0, result);
 		}
 }
