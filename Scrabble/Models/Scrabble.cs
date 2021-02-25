@@ -6,7 +6,15 @@ namespace Scrabble.Models
   {
     public static int ScrabbleScore(string word)
     {
-      return 0;
+      int sum = 0;
+      for (int i = 0; i < word.Length; i++)
+      {
+        if (word[i].Equals('a') || word[i].Equals('e') || word[i].Equals('o') || word[i].Equals('u') || word[i].Equals('i'))
+        {
+          sum++;
+        }
+      }
+      return sum;
     }    
   }
 }

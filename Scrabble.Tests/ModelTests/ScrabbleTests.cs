@@ -8,6 +8,7 @@ namespace Scrabble.Tests
 [TestClass]
 public class ScrabbleTests
 {
+
 		[TestMethod]
 		public void ScrabbleScore_ReturnZero_Int()
 		{
