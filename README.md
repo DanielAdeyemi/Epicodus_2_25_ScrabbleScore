@@ -39,8 +39,8 @@ ___
 | 06 | If string has 'k' add 5 points for each appearance | "audfk" | 13 | ✅  |
 | 07 | If string has 'j', 'x' add 8 points for each appearance | "audfkj" | 21 | ✅  |
 | 08 | If string has 'q', 'z' add 10 points for each appearance | "audfkjz" | 31 | ✅  |
-| 09 | Make count case insensetive | "AuDfKjz" | 31 | ❌ |
-| 10 |  |  |  | ✅  |
+| 09 | Make count case insensetive | "AuDfKjz" | 31 | ✅ |
+| 10 |  |  |  | ❌ |
 
 </details>
 

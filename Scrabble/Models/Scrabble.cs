@@ -7,6 +7,7 @@ namespace Scrabble.Models
   {
     public static int ScrabbleScore(string word)
     {
+      word = word.ToLower();
       int sum = 0;
       char[] plusOne = {'a', 'e', 'i', 'o', 'u'};
       char[] plusThree = {'b', 'c', 'm', 'p'};
