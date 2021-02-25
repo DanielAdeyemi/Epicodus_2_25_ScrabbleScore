@@ -49,5 +49,11 @@ public class ScrabbleTests
       int result = Game.ScrabbleScore("audfk");
       Assert.AreEqual(13, result);
     }
+		    [TestMethod]
+    public void ScrabbleScore_ReturnEightForJX_Int()
+    {
+      int result = Game.ScrabbleScore("audfkj");
+      Assert.AreEqual(21, result);
+    }
 }
 }
