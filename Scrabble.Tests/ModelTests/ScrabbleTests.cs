@@ -19,15 +19,22 @@ public class ScrabbleTests
     [TestMethod]
     public void ScrabbleScore_ReturnOneForVowel_Int()
     {
-      int result = Game.ScrabbleScore("aourt");
+      int result = Game.ScrabbleScore("aou");
       Assert.AreEqual(3, result);
     }
 
 		[TestMethod]
     public void ScrabbleScore_ReturnTwoForDG_Int()
     {
-      int result = Game.ScrabbleScore("aourtdg");
+      int result = Game.ScrabbleScore("aoudg");
       Assert.AreEqual(7, result);
+    }
+
+    [TestMethod]
+    public void ScrabbleScore_ReturnThreeForBCMP_Int()
+    {
+      int result = Game.ScrabbleScore("aodbm");
+      Assert.AreEqual(10, result);
     }
 }
 }
