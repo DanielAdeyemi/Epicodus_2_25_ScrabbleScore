@@ -55,5 +55,12 @@ public class ScrabbleTests
       int result = Game.ScrabbleScore("audfkj");
       Assert.AreEqual(21, result);
     }
+
+		[TestMethod]
+		public void ScrabbleScore_ReturnTenForQZ_Int()
+    {
+      int result = Game.ScrabbleScore("audfkjz");
+      Assert.AreEqual(31, result);
+    }
 }
 }
