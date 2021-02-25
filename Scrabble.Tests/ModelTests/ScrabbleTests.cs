@@ -36,5 +36,12 @@ public class ScrabbleTests
       int result = Game.ScrabbleScore("aodbm");
       Assert.AreEqual(10, result);
     }
+
+    [TestMethod]
+    public void ScrabbleScore_ReturnFourForFHVWY_Int()
+    {
+      int result = Game.ScrabbleScore("aodbmy");
+      Assert.AreEqual(14, result);
+    }
 }
 }
