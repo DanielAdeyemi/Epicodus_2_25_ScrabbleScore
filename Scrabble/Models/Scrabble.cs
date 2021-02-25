@@ -29,6 +29,10 @@ namespace Scrabble.Models
         {
           sum+=4;
         }
+        else if(word[i].Equals('k'))
+        {
+          sum+=5;
+        }
       }
       return sum;
     }    
