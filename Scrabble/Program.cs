@@ -2,11 +2,11 @@
 
 namespace Scrabble
 {
-    class Program
-    {
-        static void Main()
-        {
-            Console.WriteLine($"Hello");
-        }
-    }
+class Program
+{
+		static void Main()
+		{
+				Console.WriteLine($"Hello");
+		}
+}
 }
