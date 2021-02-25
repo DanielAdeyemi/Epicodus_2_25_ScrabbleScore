@@ -33,7 +33,7 @@ ___
 | :------------- | :------------- | :------------- | :------------ | :-------------: |
 | 01 | For empty string display 0 | "" | 0 |✅|
 | 02 | For each vowel in a string add 1 point | aourt | 3 |✅ |
-| 03 | If string has D or G add 2 points for each appearance | aourtdg | 7 | ❌|
+| 03 | If string has D or G add 2 points for each appearance | aourtdg | 7 | ✅|
 | 04 | If string has B, C, M, P add 3 points for each appearance| aodbmy | 10 | ❌|
 | 05 | If string has F, H, V, W, Y add 4 points for each appearance | aodbmy| 14 | ❌ |
 | 06 | If string has K add 5 points for each appearance | audfk | 13 | ❌  |

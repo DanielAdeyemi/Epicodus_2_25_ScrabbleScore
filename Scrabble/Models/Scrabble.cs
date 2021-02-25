@@ -15,6 +15,10 @@ namespace Scrabble.Models
         {
           sum++;
         }
+        else if (word[i].Equals('d') || word[i].Equals('g'))
+        {
+          sum+=2;
+        }
       }
       return sum;
     }    
