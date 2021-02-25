@@ -43,5 +43,11 @@ public class ScrabbleTests
       int result = Game.ScrabbleScore("aodbmy");
       Assert.AreEqual(14, result);
     }
+    [TestMethod]
+    public void ScrabbleScore_ReturnFiveForK_Int()
+    {
+      int result = Game.ScrabbleScore("audfk");
+      Assert.AreEqual(13, result);
+    }
 }
 }
