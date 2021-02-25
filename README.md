@@ -64,6 +64,12 @@ ___
 ## 🐛 *Known bugs:*
 This project has no execution in terminal and was used to practice TDD in C# with MSTest.
 
+## 📬 Contact Information
+#### For any questions [Email](mailto:adeyemidany+github@gmail.com?subject=[GitHub]) Daniel Adeyemi
+
+
+
+
 ## 📘 *License and copyright:*
 
 > ***© Daniel Adeyemi, Mike Pingel, 2021***  
