@@ -62,5 +62,13 @@ public class ScrabbleTests
       int result = Game.ScrabbleScore("audfkjz");
       Assert.AreEqual(31, result);
     }
+
+
+    [TestMethod]
+    public void ScrabbleScore_CaseInsensetive_Int()
+    {
+      int result = Game.ScrabbleScore("AuDfKjz");
+      Assert.AreEqual(31, result);
+    }
 }
 }
