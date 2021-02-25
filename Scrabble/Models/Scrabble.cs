@@ -33,6 +33,10 @@ namespace Scrabble.Models
         {
           sum+=5;
         }
+        else if (word[i].Equals('j') || word[i].Equals('x'))
+        {
+          sum+=8;
+        }
       }
       return sum;
     }    

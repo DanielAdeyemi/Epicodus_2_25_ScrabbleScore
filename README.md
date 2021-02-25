@@ -37,7 +37,7 @@ ___
 | 04 | If string has B, C, M, P add 3 points for each appearance| aodbm | 10 | ✅|
 | 05 | If string has F, H, V, W, Y add 4 points for each appearance | aodbmy| 14 | ✅ |
 | 06 | If string has K add 5 points for each appearance | audfk | 13 | ✅  |
-| 07 | If string has J, X add 8 points for each appearance | audfkj | 21 | ❌  |
+| 07 | If string has J, X add 8 points for each appearance | audfkj | 21 | ✅  |
 | 08 | If string has Q, Z add 10 points for each appearance | audfkjz | 31 | ❌  |
 | 09 |  |  |  | ✅  |
 | 10 |  | | | ❌ |
