@@ -65,7 +65,7 @@ ___
 This project has no execution in terminal and was used to practice TDD in C# with MSTest.
 
 ## 📬 Contact Information
-#### For any questions [Email](mailto:adeyemidany+github@gmail.com?subject=[GitHub]) Daniel Adeyemi
+#### For any questions *[email author(s)](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
 
 
 
