@@ -6,7 +6,7 @@ namespace Scrabble.Models
   {
     public static int ScrabbleScore(string word)
     {
-      return 15;
+      return 0;
     }    
   }
 }

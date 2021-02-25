@@ -4,9 +4,9 @@ namespace Scrabble
 {
 class Program
 {
-		static void Main()
+		static void Main(string[] args)
 		{
-				Console.WriteLine($"Hello");
+			Console.WriteLine($"Hello, {args[0]}");
 		}
 }
 }

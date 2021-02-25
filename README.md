@@ -31,7 +31,7 @@ ___
 
 | # | Behavior | Input |  Output | Complete |
 | :------------- | :------------- | :------------- | :------------ | :-------------: |
-| 01 | For empty string display 0 | "" | 0 |❌|
+| 01 | For empty string display 0 | "" | 0 |✅|
 | 02 | For each vowel in a string add 1 point | aourt | 3 |❌ |
 | 03 | If string has D or G add 2 points for each appearance | aourtdg | 7 | ❌|
 | 04 | If string has B, C, M, P add 3 points for each appearance| aodbmy | 10 | ❌|
