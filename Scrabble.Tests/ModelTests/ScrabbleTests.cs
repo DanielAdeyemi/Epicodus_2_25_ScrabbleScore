@@ -14,5 +14,12 @@ public class ScrabbleTests
 			int result = Game.ScrabbleScore("");
 			Assert.AreEqual(0, result);
 		}
+
+    [TestMethod]
+    public void ScrabbleScore_ReturnOneForVowel_Int()
+    {
+      int result = Game.ScrabbleScore("aourt");
+      Assert.AreEqual(3, result);
+    }
 }
 }
