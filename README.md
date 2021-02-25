@@ -47,15 +47,15 @@ ___
 
 
 #### 🏁 Running Tests:
-* To run MS tests you will need to navigate to the `ToDoList.Tests` folder *(cd ToDoList.Tests)* in the command line and then run `dotnet restore`.
-* You should now see **'obj'** folders in both the `ToDoList.Tests` folder and `ToDoList` folder.
-* At this point you should be able to successfully run `dotnet test` in the command line (keep in mind you should still be in the ToDoList.Tests folder).
+* To run MS tests you will need to navigate to the `Scrabble.Tests` folder *(cd Scrabble.Tests)* in the command line and then run `dotnet restore`.
+* You should now see **'obj'** folders in both the `Scrabble.Tests` folder and `Scrabble` folder.
+* At this point you should be able to successfully run `dotnet test` in the command line (keep in mind you should still be in the Scrabble.Tests folder).
 
 ####  🖥️ View website:
 *GitHub page or terminal interactions are unavailable for this project.*
 
 ## 🛠️ *Technologies used:*
-* C# v.9
+* C# 9
 * .NET Core v5.0
 * MSTest
 * REPL

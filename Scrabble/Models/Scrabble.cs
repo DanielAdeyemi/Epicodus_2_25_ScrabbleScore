@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace Scrabble.Models
 {
@@ -7,9 +8,10 @@ namespace Scrabble.Models
     public static int ScrabbleScore(string word)
     {
       int sum = 0;
+      char[] vowels = {'a', 'e', 'i', 'o', 'u'};
       for (int i = 0; i < word.Length; i++)
       {
-        if (word[i].Equals('a') || word[i].Equals('e') || word[i].Equals('o') || word[i].Equals('u') || word[i].Equals('i'))
+        if (vowels.Contains(word[i]))
         {
           sum++;
         }
