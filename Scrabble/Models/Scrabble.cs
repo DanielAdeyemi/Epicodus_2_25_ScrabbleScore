@@ -10,6 +10,7 @@ namespace Scrabble.Models
       int sum = 0;
       char[] plusOne = {'a', 'e', 'i', 'o', 'u'};
       char[] plusThree = {'b', 'c', 'm', 'p'};
+      char[] plusFour = {'f', 'h', 'v', 'w', 'y'};
       for (int i = 0; i < word.Length; i++)
       {
         if (plusOne.Contains(word[i]))
@@ -23,6 +24,10 @@ namespace Scrabble.Models
         else if (plusThree.Contains(word[i]))
         {
           sum+=3;
+        }
+        else if(plusFour.Contains(word[i]))
+        {
+          sum+=4;
         }
       }
       return sum;
