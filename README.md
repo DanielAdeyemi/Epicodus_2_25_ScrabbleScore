@@ -1,6 +1,6 @@
 ## <div align="center">Scrabble Score C#</div>
 #### <div align="center">📚 *Epicodus Practice Lesson # 25  (Week 1 of C#)  2/25/2021* </div> 
-***<p align="right">By Daniel Adeyemi and Mike Pingel ***</p>   
+***<p align="right">By Daniel Adeyemi and Mike Pingel***</p>   
 <p align="center">
 <br>
 
