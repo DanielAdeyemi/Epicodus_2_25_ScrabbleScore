@@ -22,5 +22,12 @@ public class ScrabbleTests
       int result = Game.ScrabbleScore("aourt");
       Assert.AreEqual(3, result);
     }
+
+		[TestMethod]
+    public void ScrabbleScore_ReturnTwoForDG_Int()
+    {
+      int result = Game.ScrabbleScore("aourtdg");
+      Assert.AreEqual(7, result);
+    }
 }
 }
