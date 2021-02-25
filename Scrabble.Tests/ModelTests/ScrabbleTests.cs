@@ -9,8 +9,10 @@ namespace Scrabble.Tests
 public class ScrabbleTests
 {
 		[TestMethod]
-		public void TestMethod1()
+		public void ScrabbleScore_ReturnZero_Int()
 		{
+			int result = Scrabble.ScrabbleScore("");
+			Assert.AreEqual(0, result);
 		}
 }
 }

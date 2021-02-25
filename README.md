@@ -69,7 +69,6 @@ This project has no execution in terminal and was used to practice TDD in C# wit
 
 
 
-
 ## 📘 *License and copyright:*
 
 > ***© Daniel Adeyemi, Mike Pingel, 2021***  
