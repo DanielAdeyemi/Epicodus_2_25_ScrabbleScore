@@ -7,7 +7,14 @@ class Program
 {
 		static void Main(string[] args)
 		{
-			Console.WriteLine(Game.ScrabbleScore(args[0]));
+			if (args.Length !=1) 
+			{
+				Console.WriteLine("You need to pass 1 string after _dotnet run_");
+			}
+			else
+			{
+				Console.WriteLine(Game.ScrabbleScore(args[0]));
+			}
 
 		}
 }
