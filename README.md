@@ -52,7 +52,7 @@ ___
 * At this point you should be able to successfully run `dotnet test` in the command line (keep in mind you should still be in the Scrabble.Tests folder).
 
 ####  🖥️ View website:
-*GitHub page or terminal interactions are unavailable for this project.*
+*GitHub page is not available for this project. To view functionality you need to run `dotnet run` and pass your word after that command before press enter.*
 
 ## 🛠️ *Technologies used:*
 * C# 9
@@ -62,7 +62,7 @@ ___
 * Git and GitHub
 
 ## 🐛 *Known bugs:*
-This project has no execution in terminal and was used to practice TDD in C# with MSTest.
+This project has was used to practice TDD in C# with MSTest.
 
 ## 📬 Contact Information
 #### For any questions *[email author(s)](mailto:adeyemidany+github@gmail.com?subject=[GitHub])*
